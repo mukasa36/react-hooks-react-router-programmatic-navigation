@@ -7,6 +7,8 @@ function Login({ onLogin }) {
     password: "",
   });
 
+  const history = useHistory(); // Initialize the history object
+
   function handleChange(e) {
     setFormData({
       ...formData,
@@ -49,3 +51,5 @@ function Login({ onLogin }) {
     </form>
   );
 }
+
+export default Login;
