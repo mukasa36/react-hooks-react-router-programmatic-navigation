@@ -15,7 +15,7 @@ function Home({ isSignedIn }) {
 
 // Wrap the Home component inside a Route component
 function App() {
-  const isSignedIn = true; // Replace with your actual authentication logic
+  const isSignedIn = true; 
   return (
     <Route exact path="/">
       <Home isSignedIn={isSignedIn} />
